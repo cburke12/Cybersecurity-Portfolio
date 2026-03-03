@@ -13,12 +13,12 @@ Feel free to connect on [LinkedIn](https://www.linkedin.com/in/camdenburkedev) �
 ## Professional Statement
 
 **Summary:**
-CS student at Arizona State University (B.S., expected Dec 2027) with a prior B.S. in Full Stack Web Development. Pivoting into cybersecurity with a focus on cloud security architecture and SOC operations. Currently pursuing CompTIA Network+ and Security+ (both scheduled Q1 2026). Self-directed home lab builder — Active Directory on Windows Server 2025, Splunk SIEM ingesting AD logs, and a C++ log analysis engine with brute-force detection.
+CS student at Arizona State University (B.S., expected Dec 2027) with a prior B.S. in Full Stack Web Development. Pivoting into cybersecurity with a focus on cloud security architecture and SOC operations. Currently pursuing CompTIA Network+ and Security+ (both scheduled Q1 2026). Self-directed home lab builder — Active Directory on Windows Server 2025 and Splunk SIEM ingesting AD logs.
 
 **Key Projects & Experience:**
 - **Active Directory Home Lab:** Deployed Windows Server 2025 as a domain controller in VirtualBox; provisioned 1,000+ users via PowerShell automation; configured OUs, group policies, and client VM domain joins.
 - **SIEM Lab (Splunk):** Ingesting Active Directory event logs into Splunk Free tier; building dashboards and writing basic correlation alerts for failed login patterns.
-- **C++ Log Analyzer / Mini-IDS:** Built a log analysis engine in C++ using hash tables, heaps, and sliding-window algorithms to detect brute-force login attempts and port scan patterns — paired with a Next.js + HeroUI dashboard.
+- **Python Security Automation:** Writing Python scripts to parse logs, detect brute-force patterns, and check file integrity — part of ongoing Security+ prep and home lab work.
 - **Web Development (Production):** Managed and maintained live client websites for Lavender Hill Springs LLC and Kaiyin Warriors Foundation.
 
 **Certifications in Progress:**
@@ -26,7 +26,7 @@ CS student at Arizona State University (B.S., expected Dec 2027) with a prior B.
 - CompTIA Security+ — Exam scheduled April 1, 2026
 
 **Key Skills:**
-Active Directory, Windows Server 2025, PowerShell, Splunk, Wireshark, VirtualBox, Python, C++, TCP/IP Networking, NIST Frameworks, Linux CLI, SQL, Bash
+Active Directory, Windows Server 2025, PowerShell, Splunk, Wireshark, VirtualBox, Python, TCP/IP Networking, NIST Frameworks, Linux CLI, SQL, Bash
 
 **Target Roles:**
 - SOC Analyst (Tier 1/2)
@@ -63,26 +63,30 @@ Some documents are in PDF format to include screenshots, diagrams, and richer fo
 
 ## Tools
 
-**Operating Systems & Platforms:**
-- Windows Server 2025, Windows 11, Linux (Ubuntu/Kali)
-- VirtualBox, VMware Fusion
+| Category | Tools |
+|----------|-------|
+| **SIEM** | Splunk, Chronicle |
+| **Network Analysis** | Wireshark, Tcpdump |
+| **IDS/IPS** | Suricata |
+| **Virtualization** | VirtualBox, VMware Fusion |
+| **Cloud** | AWS (IAM, S3, CloudTrail) |
+| **Identity & Access** | Active Directory, Windows Server 2025 |
+| **Scripting** | Python 3, PowerShell, Bash |
+| **Version Control** | Git, GitHub |
 
-**Security Tools:**
-- Splunk (SIEM)
-- Suricata (IDS)
-- Wireshark, Tcpdump (Packet Analysis)
-- Nmap (Reconnaissance)
+## Languages & Scripting:
 
-**Languages & Scripting:**
-- Python, PowerShell, Bash, C++, SQL
+- Python, PowerShell, Bash, SQL
 
-**Frameworks & Standards:**
+## Frameworks & Standards:
+
 - NIST Cybersecurity Framework (CSF)
 - NIST Risk Management Framework (RMF)
 - NIST SP 800-61 (Incident Response)
 - CIA Triad, MITRE ATT&CK
 
-**Other:**
+## Other:
+
 - Markdown, Git/GitHub
 - Google Workspace
 
@@ -90,7 +94,6 @@ Some documents are in PDF format to include screenshots, diagrams, and richer fo
 
 ## Standalone Projects
 
-- C++ — Cybersecurity — [Log Analyzer / Mini-IDS](https://github.com/cburke12/cpp-log-analyzer-mini-ids)
 - Python — Cybersecurity — Automation Scripts *(coming soon)*
 - Cloud Security — AWS IAM Lab *(coming soon)*
 - SIEM — Splunk Active Directory Lab *(coming soon)*
@@ -100,6 +103,7 @@ Some documents are in PDF format to include screenshots, diagrams, and richer fo
 ## What's Next
 
 This portfolio will grow continuously as I complete certifications and add new labs. Upcoming additions:
+
 - [ ] Splunk SIEM lab write-up (AD log ingestion + alerts)
 - [ ] Network+ study lab — subnetting and ACL configs
 - [ ] Python automation — log parser and alerting script
